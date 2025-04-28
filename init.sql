@@ -11,7 +11,9 @@ CREATE TABLE orders (
 );
 
 INSERT INTO products (name, price) VALUES
-('Bread', 2.99),
-('Cake', 15.49),
-('Donut', 1.99);
+('Chocolate Pastry', 2.99),
+('Red Velvet Cake', 15.49),
+('Glazed Donut', 1.99),
+('Cheesecake', 3.49),
+('Blueberry Muffin', 2.99);
 
