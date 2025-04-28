@@ -1,0 +1,6 @@
+ To run the project->
+docker-compose down -v  
+docker-compose up --build
+
+To go inside postgress database and check the tables ->
+docker exec -it bakery-system-postgres-1 psql -U postgres -d postgres 
